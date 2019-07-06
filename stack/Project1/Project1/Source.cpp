@@ -113,7 +113,7 @@ void move(int n,int s,int d){
 		}
 		cout << endl;
 	}
-	cout << "  A\tB\tC" << endl;		
+	cout << "A\tB\tC" << endl;		
 	//ˆÚ“®‚Ì•\Ž¦---------------------
 	
 	/* 
