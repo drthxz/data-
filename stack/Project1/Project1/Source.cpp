@@ -92,7 +92,8 @@ void move(int n,int s,int d){
 	//s---->d‚Ö‰~”Õ‚ğˆÚ“®
 	int temp = pop(h_stack[s], &h_top[s]);
 	push(h_stack[d], &h_top[d], temp);
-	//h_stack[ h_top[d] ][d]=h_stack[ h_top[s] -1][s];
+	//h_stack[ d ][h_top[d]]=h_stack[ s][h_top[s] - 1];
+
 	//sp‚ğã‰º‚·‚é
 	move_no++;
 	
